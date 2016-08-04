@@ -334,6 +334,9 @@ section.dark .btn-default:hover {
 .box-icon a.box-icon-title:hover>h2 {
 	color:#1980B6;
 }
+.box-icon a.box-icon-title:hover>h3 {
+	color:#1980B6;
+}
 .box-icon a.box-icon-title:hover>i {
 	color:#fff;
 	background-color:#1980B6;

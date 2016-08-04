@@ -1,0 +1,13 @@
+.box-icon .box-icon-title>h3 {
+	font-size:18px;
+	line-height:35px;
+	margin:0;
+
+	-webkit-transition: all .200s;
+	   -moz-transition: all .200s;
+		 -o-transition: all .200s;
+			transition: all .200s; 
+}
+
+.padding-left-43 {padding-left: 43px;}
+.info-bar p.padding-left-43 {padding-left: 43px;}
