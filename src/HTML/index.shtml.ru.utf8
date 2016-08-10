@@ -780,7 +780,7 @@
 								<a class="box-icon-title" href="#">
 									<h2>Системное администрироание</h2>
 								</a>
-								<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+								<p>Грамотное и профессиональное администрирование информационной системы обеспечит стабильное функционирование всго офиса, и ибесперебойную работу компании в целом.</p>
 								<a class="box-icon-more font-lato weight-300" href="#">Узнать больше...</a>
 							</div>
 						</div>
@@ -800,11 +800,13 @@
 					<div class="row">
 
 						<div class="col-sm-6">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero quod consequuntur quibusdam, enim expedita sed quia nesciunt incidunt accusamus necessitatibus modi adipisci officia libero accusantium esse hic, obcaecati, ullam, laboriosam!</p>
-							
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti vero, animi suscipit id facere officia. Aspernatur, quo, quos nisi dolorum aperiam fugiat deserunt velit rerum laudantium cum magnam.</p>
-							
-							<a class="btn btn-default" href="#">LEARN MORE</a>
+						<p>Содержание в штате опытного квалифицированного специалиста практически всегда подразумевает значительные затраты для компании. Поэтому аутсорсинг услуг IT-специалиста может стать наиболее выгодным решением.</p>
+						<ul>
+						<li>Консультируем наших клиентов по всем вопросам, связанным с компьютерами, интернетом, электронной почтой</li>
+						<li>Мы берем на себя все заботы об установке, настройке и сервисном обслуживании офисной техники предприятия</li>
+						</ul>
+			
+							<a class="btn btn-default" href="#">Узнать больше...</a>
 						</div>
 
 						<div class="col-sm-6">
@@ -943,7 +945,7 @@
 									<i class="fa fa-tablet"></i>
 									<h3>Программы и приложения</h3>
 								</a>
-								<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+								<p>Эффективность Вашего бизнеса зависит от правильной работы множества компьютерных программ. Мы знаем как это множество превратить в связанную, отлаженную, надёжную систему.</p>
 							</div>
 
 							<div class="box-icon box-icon-left">
@@ -951,7 +953,7 @@
 									<i class="fa fa-random"></i>
 									<h3>Резервное копирование</h3>
 								</a>
-								<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+								<p>Восстановить из копии случайно утраченные данные в разы быстрее и дешевле, чем лечить разрушенную аппаратным сбоем, вирусом или злоумышленником базу данных.</p>
 							</div>
 
 							<div class="box-icon box-icon-left">
@@ -959,7 +961,7 @@
 									<i class="fa fa-tint"></i>
 									<h3>Восстановление потерянных данных</h3>
 								</a>
-								<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+								<p>Если у Вас "сгорел" жесткий диск, мигнул свет, Вы случайно удалили файл и нет копии. Ещё не всё потеряно часто данные можно восстановить.</p>
 							</div>
 
 							<div class="box-icon box-icon-left">
