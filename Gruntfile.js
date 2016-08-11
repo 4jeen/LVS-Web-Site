@@ -58,12 +58,13 @@ module.exports = function(grunt) {
       }
     },
     copy: {
-	   fonts: {
-	    expand: true,
-	    cwd: 'src/HTML/assets/fonts',
-	    src: '*',
-	    dest: 'dist/HTML/assets/fonts',
-	   },
+      main: {
+        files: [
+            {expand: true,cwd: 'src/HTML/assets/fonts',src: '*',dest: 'dist/HTML/assets/fonts'},
+            {expand: true,cwd: 'src/HTML',src: 'favicon.ico',dest: 'dist/HTML'}
+        ]   
+      }
+	   	   
     },
     uglify: {
       options: {

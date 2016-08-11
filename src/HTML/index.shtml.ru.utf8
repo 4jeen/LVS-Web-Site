@@ -10,7 +10,7 @@
 		<meta name="Author" content="Evgeniy Kulikovskiy " />
 
 		<!-- mobile settings -->
-		<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+		<meta name="viewport" content="width=device-width, maximum-scale=4, initial-scale=1, user-scalable=1" />
 		<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
 
 		<!-- WEB FONTS : use %7C instead of | (pipe) -->
@@ -32,6 +32,7 @@
 		<!-- PAGE LEVEL SCRIPTS -->
 		<link href="assets/css/header-1.css" rel="stylesheet" type="text/css" />
 		<link href="assets/css/color_scheme/darkblue.css" rel="stylesheet" type="text/css" id="color_scheme" />
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
 	</head>
 
 	<!--
@@ -961,15 +962,15 @@
 									<i class="fa fa-tint"></i>
 									<h3>Восстановление потерянных данных</h3>
 								</a>
-								<p>Если у Вас "сгорел" жесткий диск, мигнул свет, Вы случайно удалили файл и нет копии. Ещё не всё потеряно часто данные можно восстановить.</p>
+								<p>Если у Вас "сгорел" жесткий диск, мигнул свет, Вы случайно удалили файл и нет копии. Ещё не всё потеряно, часто данные можно восстановить.</p>
 							</div>
 
 							<div class="box-icon box-icon-left">
 								<a class="box-icon-title" href="#complexSupport">
-									<i class="fa fa-cogs"></i>
-									<h3>Multipurpose</h3>
+									<i class="fa fa-cloud"></i>
+									<h3>Облачные технологии</h3>
 								</a>
-								<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+								<p>Внедрение и поддержка облачных сервисов в повседневную жизнь компании.</p>
 							</div>
 
 						</div>
