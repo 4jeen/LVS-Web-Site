@@ -53,6 +53,7 @@ module.exports = function(grunt) {
           'dist/HTML/footer.inc': 'src/HTML/footer.inc',     // 'destination': 'source'
           'dist/HTML/shopcart.inc': 'src/HTML/shopcart.inc',
           'dist/HTML/slidepanel.inc': 'src/HTML/slidepanel.inc',
+          'dist/HTML/ga.inc': 'src/HTML/ga.inc',
           'dist/HTML/slidetop.inc': 'src/HTML/slidetop.inc'
         }
       }
@@ -61,7 +62,9 @@ module.exports = function(grunt) {
       main: {
         files: [
             {expand: true,cwd: 'src/HTML/assets/fonts',src: '*',dest: 'dist/HTML/assets/fonts'},
-            {expand: true,cwd: 'src/HTML',src: 'favicon.ico',dest: 'dist/HTML'}
+            {expand: true,cwd: 'src/HTML',src: 'favicon.ico',dest: 'dist/HTML'},
+            {expand: true,cwd: 'src/HTML',src: 'sitemap.xml',dest: 'dist/HTML'},
+            {expand: true,cwd: 'src/HTML',src: 'google0148b5ce444a5357.html',dest: 'dist/HTML'}
         ]   
       }
 	   	   
@@ -90,7 +93,7 @@ module.exports = function(grunt) {
 
 
   // Default task(s).
-//  grunt.registerTask('default', ['uglify']);
+  grunt.registerTask('default', ['uglify']);
     //grunt.registerTask('default', ['copy']);
     grunt.registerTask('default', ['imagemin','htmlmin','cssmin','copy']);
 };

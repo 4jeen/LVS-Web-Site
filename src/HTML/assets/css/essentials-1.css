@@ -11,3 +11,9 @@
 
 .padding-left-43 {padding-left: 43px;}
 .info-bar p.padding-left-43 {padding-left: 43px;}
+#google_translate_element > div > div{
+	border: none;font-size: 12px;color: #151515;
+}
+
+#google_translate_element .goog-te-gadget-simple .goog-te-menu-value {color: #151515;}
+.goog-te-menu2{color: #151515;}

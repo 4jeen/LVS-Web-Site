@@ -5,15 +5,16 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>Контакты - ООО "Слаботочные системы"</title>
-		<meta name="keywords" content="HTML5,CSS3,Template" />
 		<meta name="description" content="контакты  " />
-		<meta content='номер ремонт компьютеров, телефон монтаж сети,  телефон монтаж сигнализации, контакты Слаботочные системы, схема проезда Слаботочные системы, адрес Слаботочные системы' name='keywords'/>
+		<meta content="номер ремонт компьютеров, телефон монтаж сети,  телефон монтаж сигнализации, контакты Слаботочные системы, схема проезда Слаботочные системы, адрес Слаботочные системы" name='keywords'/>
   		<meta content='Контакты: ☎ +7(863) 301-07-70 Адрес: Россия, Ростов-на-Дону, ул. Доватора, д. 118а Время работы: пн-чт 10:00-18:00 пт 10:00-16:00' name='description'/>
 		<meta name="Author" content="Evgeniy Kulikovskiy " />
-
+		<meta http-equiv="Last-Modified" content="Wed, 26 Oct 2016 14:43:00 GMT">
 		<!-- mobile settings -->
 		<meta name="viewport" content="width=device-width, maximum-scale=4, initial-scale=1, user-scalable=1" />
 		<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
 		<!-- WEB FONTS : use %7C instead of | (pipe) -->
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700" rel="stylesheet" type="text/css" />
@@ -25,10 +26,13 @@
 		<link href="assets/css/essentials.css" rel="stylesheet" type="text/css" />
 		<link href="assets/css/layout.css" rel="stylesheet" type="text/css" />
 		<link href="assets/css/fontSize.css" rel="stylesheet" type="text/css" />
+		<!-- CUSTOM CSS -->
+		<link href="assets/css/custom.css" rel="stylesheet" type="text/css" />
+
 		<!-- PAGE LEVEL SCRIPTS -->
 		<link href="assets/css/header-1.css" rel="stylesheet" type="text/css" />
 		<link href="assets/css/color_scheme/darkblue.css" rel="stylesheet" type="text/css" id="color_scheme" />
-		<link rel="icon" href="favicon.ico" type="image/x-icon">
+
 	</head>
 
 	<!--
@@ -53,7 +57,7 @@
 		data-background="assets/images/boxed_background/1.jpg"
 	-->
 	<body class="smoothscroll enable-animation">
-
+		<!--#include file="./ga.inc"  -->
 		<!-- SLIDE TOP -->
 		<!--#include file="./slidetop.inc"  -->
 		<!-- /SLIDE TOP -->
@@ -200,11 +204,17 @@
 					.shadow-before-3 	= shadow 3 header top
 					.shadow-after-3 	= shadow 3 header bottom
 			-->
-			<section class="page-header">
+			<section class="page-header contacts-page-header">
 				<div class="container">
 				<p class="margin-bottom-3">Группа компаний</p>
 					<h1>Слаботочные системы</h1>
-
+					  <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+							<h6>
+								<span class="block"><strong><i class="fa fa-map-marker"></i> Адрес:</strong> <span itemprop="postalCode">344041</span>, <span itemprop="streetAddress"> Доватора 118а</span>, <span itemprop="addressLocality">Ростов-на-Дону, Россия</span></span>
+								<span class="block"><strong><i class="fa fa-phone"></i> Тел:</strong> <a href="tel:+7(863) 301-07-70"><span itemprop="telephone">+7(863) 301-07-70</span></a></span>
+								<span class="block"><strong><i class="fa fa-envelope"></i> Email:</strong> <a href="mailto:welcome@lvs.tel"><span itemprop="email">welcome@lvs.tel</span></a></span>
+							</h6>
+							</div>
 					<!-- breadcrumbs -->
 					<ol class="breadcrumb">
 						<li><a href="./index.shtml">В начало</a></li>
@@ -368,7 +378,15 @@
 
 							<h2><span class="size-21" itemprop="name">"Cлаботочные системы"</span></h2>
 
-							
+							<hr />
+							<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+							<p>
+								<span class="block"><strong><i class="fa fa-map-marker"></i> Адрес:</strong> <span itemprop="postalCode">344041</span>, <span itemprop="streetAddress"> Доватора 118а</span>, <span itemprop="addressLocality">Ростов-на-Дону, Россия</span></span>
+								<span class="block"><strong><i class="fa fa-phone"></i> Тел:</strong> <a href="tel:+7(863) 301-07-70"><span itemprop="telephone">+7(863) 301-07-70</span></a></span>
+								<span class="block"><strong><i class="fa fa-envelope"></i> Email:</strong> <a href="mailto:welcome@lvs.tel"><span itemprop="email">welcome@lvs.tel</span></a></span>
+							</p>
+							</div>
+							<hr/>
 								Посетите нас.<br/>
 								<ul style="list-style:none;padding-left:0em;">
 									<li><i class="fa fa-map"></i>Удобный подъезд из области.</li>
@@ -379,14 +397,7 @@
 								</ul>
 							
 
-							<hr />
-							<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-							<p>
-								<span class="block"><strong><i class="fa fa-map-marker"></i> Адрес:</strong> <span itemprop="postalCode">344041</span>, <span itemprop="streetAddress"> Доватора 118а</span>, <span itemprop="addressLocality">Ростов-на-Дону, Россия</span></span>
-								<span class="block"><strong><i class="fa fa-phone"></i> Тел:</strong> <a href="tel:+7(863) 301-07-70"><span itemprop="telephone">+7(863) 301-07-70</span></a></span>
-								<span class="block"><strong><i class="fa fa-envelope"></i> Email:</strong> <a href="mailto:welcome@lvs.tel"><span itemprop="email">welcome@lvs.tel</span></a></span>
-							</p>
-							</div>
+							
 							<hr />
 
 							<h4 class="font300"><strong><i class="fa fa-clock-o"></i>Время работы</h4>

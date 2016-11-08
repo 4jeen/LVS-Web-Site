@@ -13,6 +13,9 @@
 		<meta name="viewport" content="width=device-width, maximum-scale=4, initial-scale=1, user-scalable=1" />
 		<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
 
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+		
 		<!-- WEB FONTS : use %7C instead of | (pipe) -->
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700" rel="stylesheet" type="text/css" />
 
@@ -32,7 +35,7 @@
 		<!-- PAGE LEVEL SCRIPTS -->
 		<link href="assets/css/header-1.css" rel="stylesheet" type="text/css" />
 		<link href="assets/css/color_scheme/darkblue.css" rel="stylesheet" type="text/css" id="color_scheme" />
-		<link rel="icon" href="favicon.ico" type="image/x-icon">
+
 	</head>
 
 	<!--
@@ -58,6 +61,7 @@
 	-->
 	<body class="smoothscroll enable-animation">
 
+		<!--#include file="./ga.inc"  -->
 		<!-- SLIDE TOP -->
 		<!--#include file="./slidetop.inc"  -->
 		<!-- /SLIDE TOP -->
@@ -91,14 +95,13 @@
 					<ul class="top-links list-inline">
 						<li ><a href="/page-contact-3.shtml">КОНТАКТЫ</a></li>
 						<li>
-							<a class="dropdown-toggle no-text-underline" data-toggle="dropdown" href="#"><img class="flag-lang" src="assets/images/flags/ru.png" width="16" height="11" alt="lang" /> РУССКИЙ</a>
-							<ul class="dropdown-langs dropdown-menu">
-								<li><a tabindex="-1" href="#"><img class="flag-lang" src="assets/images/flags/us.png" width="16" height="11" alt="lang" /> ENGLISH</a></li>
-								<li class="divider"></li>
-								<!--<li><a tabindex="-1" href="#"><img class="flag-lang" src="assets/images/flags/de.png" width="16" height="11" alt="lang" /> GERMAN</a></li>-->
-								<li><a tabindex="-1" href="#"><img class="flag-lang" src="assets/images/flags/ru.png" width="16" height="11" alt="lang" /> РУССКИЙ</a></li>
-								<!--<li><a tabindex="-1" href="#"><img class="flag-lang" src="assets/images/flags/it.png" width="16" height="11" alt="lang" /> ITALIAN</a></li>-->
-							</ul>
+							<div id="google_translate_element"></div>
+							<script type="text/javascript">
+								function googleTranslateElementInit() {
+  								new google.translate.TranslateElement({pageLanguage: 'ru', layout: google.translate.	TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+								}
+							</script>
+							<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 						</li>
 						<!--<li>
 							<a class="dropdown-toggle no-text-underline" data-toggle="dropdown" href="#">USD</a>
@@ -556,7 +559,7 @@
 						</li>
 
 						<!-- SLIDE 4 -->
-						<li data-transition="fade" data-slotamount="7" data-masterspeed="300" data-link="http://lvs/" data-title="Slide 4" data-target="_blank" data-saveperformance="off">
+						<li data-transition="fade" data-slotamount="7" data-masterspeed="300"  data-title="Slide 4" data-target="_blank" data-saveperformance="off">
 
 							<img src="assets/images/1x1.png" data-lazyload="assets/images/backgrounds/dead_hdd.jpg" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat" />
 
