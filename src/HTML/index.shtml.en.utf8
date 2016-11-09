@@ -1,0 +1,1074 @@
+<!DOCTYPE html >
+<!--[if IE 8]>			<html class="ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9]>			<html class="ie ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->	<html lang="en"> <!--<![endif]-->
+	<head>
+		<meta charset="utf-8" />
+		<title>ООО "Слаботочные системы"</title>
+		<meta name="keywords" content="HTML5,CSS3,Template" />
+		<meta name="description" content="" />
+		<meta name="Author" content="Evgeniy Kulikovskiy " />
+
+		<!-- mobile settings -->
+		<meta name="viewport" content="width=device-width, maximum-scale=4, initial-scale=1, user-scalable=1" />
+		<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+
+		<link rel="icon" href="http://lvs.net.ru/favicon.ico" type="image/x-icon">
+		<link rel="shortcut icon" href="http://lvs.net.ru/favicon.ico" type="image/x-icon">
+		<!-- WEB FONTS : use %7C instead of | (pipe) -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700" rel="stylesheet" type="text/css" />
+
+		<!-- CORE CSS -->
+		<link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+		<!-- REVOLUTION SLIDER -->
+		<link href="assets/plugins/slider.revolution/css/extralayers.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/slider.revolution/css/settings.css" rel="stylesheet" type="text/css" />
+
+		<!-- THEME CSS -->
+		<link href="assets/css/essentials.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/essentials-1.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/layout.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/fontSize.css" rel="stylesheet" type="text/css" />
+
+		<!-- PAGE LEVEL SCRIPTS -->
+		<link href="assets/css/header-1.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/color_scheme/darkblue.css" rel="stylesheet" type="text/css" id="color_scheme" />
+
+	</head>
+
+	<!--
+		AVAILABLE BODY CLASSES:
+		
+		smoothscroll 			= create a browser smooth scroll
+		enable-animation		= enable WOW animations
+
+		bg-grey					= grey background
+		grain-grey				= grey grain background
+		grain-blue				= blue grain background
+		grain-green				= green grain background
+		grain-blue				= blue grain background
+		grain-orange			= orange grain background
+		grain-yellow			= yellow grain background
+		
+		boxed 					= boxed layout
+		pattern1 ... patern11	= pattern background
+		menu-vertical-hide		= hidden, open on click
+		
+		BACKGROUND IMAGE [together with .boxed class]
+		data-background="assets/images/boxed_background/1.jpg"
+	-->
+	<body class="smoothscroll enable-animation">
+
+		<!-- SLIDE TOP -->
+		<!--#include file="./slidetop.inc"  -->
+		<!-- /SLIDE TOP -->
+
+
+		<!-- wrapper -->
+		<div id="wrapper">
+
+			<!-- Top Bar -->
+			<div id="topBar">
+				<div class="container">
+
+					<!-- right -->
+					<!--<ul class="top-links list-inline pull-right">
+						<li class="text-welcome hidden-xs">Welcome to Smarty, <strong>John Doe</strong></li>
+						<li>
+							<a class="dropdown-toggle no-text-underline" data-toggle="dropdown" href="#"><i class="fa fa-user hidden-xs"></i> MY ACCOUNT</a>
+							<ul class="dropdown-menu pull-right">
+								<li><a tabindex="-1" href="#"><i class="fa fa-history"></i> ORDER HISTORY</a></li>
+								<li class="divider"></li>
+								<li><a tabindex="-1" href="#"><i class="fa fa-bookmark"></i> MY WISHLIST</a></li>
+								<li><a tabindex="-1" href="#"><i class="fa fa-edit"></i> MY REVIEWS</a></li>
+								<li><a tabindex="-1" href="#"><i class="fa fa-cog"></i> MY SETTINGS</a></li>
+								<li class="divider"></li>
+								<li><a tabindex="-1" href="#"><i class="glyphicon glyphicon-off"></i> LOGOUT</a></li>
+							</ul>
+						</li>
+					</ul>-->
+
+					<!-- left -->
+					<ul class="top-links list-inline">
+						<li ><a href="/page-contact-3.shtml">CONTACTS</a></li>
+						<li>
+							<a class="dropdown-toggle no-text-underline" data-toggle="dropdown" href="#"><img class="flag-lang" src="assets/images/flags/us.png" width="16" height="11" alt="lang" /> ENGLISH</a>
+							<ul class="dropdown-langs dropdown-menu">
+								<li><a tabindex="-1" href="#"><img class="flag-lang" src="assets/images/flags/us.png" width="16" height="11" alt="lang" /> ENGLISH</a></li>
+								<li class="divider"></li>
+								<!--<li><a tabindex="-1" href="#"><img class="flag-lang" src="assets/images/flags/de.png" width="16" height="11" alt="lang" /> GERMAN</a></li>-->
+								<li><a tabindex="-1" href="#"><img class="flag-lang" src="assets/images/flags/ru.png" width="16" height="11" alt="lang" /> РУССКИЙ</a></li>
+								<!--<li><a tabindex="-1" href="#"><img class="flag-lang" src="assets/images/flags/it.png" width="16" height="11" alt="lang" /> ITALIAN</a></li>-->
+							</ul>
+						</li>
+						<!--<li>
+							<a class="dropdown-toggle no-text-underline" data-toggle="dropdown" href="#">USD</a>
+							<ul class="dropdown-langs dropdown-menu">
+								<li><a tabindex="-1" href="#">USD</a></li>
+								<li class="divider"></li>
+								<li><a tabindex="-1" href="#">EUR</a></li>
+								<li><a tabindex="-1" href="#">GBP</a></li>
+							</ul>
+						</li>-->
+					</ul>
+
+				</div>
+			</div>
+			<!-- /Top Bar -->
+
+
+			<!-- 
+				AVAILABLE HEADER CLASSES
+
+				Default nav height: 96px
+				.header-md 		= 70px nav height
+				.header-sm 		= 60px nav height
+
+				.noborder 		= remove bottom border (only with transparent use)
+				.transparent	= transparent header
+				.translucent	= translucent header
+				.sticky			= sticky header
+				.static			= static header
+				.dark			= dark header
+				.bottom			= header on bottom
+				
+				shadow-before-1 = shadow 1 header top
+				shadow-after-1 	= shadow 1 header bottom
+				shadow-before-2 = shadow 2 header top
+				shadow-after-2 	= shadow 2 header bottom
+				shadow-before-3 = shadow 3 header top
+				shadow-after-3 	= shadow 3 header bottom
+
+				.clearfix		= required for mobile menu, do not remove!
+
+				Example Usage:  class="clearfix sticky header-sm transparent noborder"
+			-->
+			<div id="header" class="sticky shadow-after-3 clearfix">
+
+				<!-- TOP NAV -->
+				<header id="topNav">
+					<div class="container">
+
+						<!-- Mobile Menu Button -->
+						<button class="btn btn-mobile" data-toggle="collapse" data-target=".nav-main-collapse">
+							<i class="fa fa-bars"></i>
+						</button>
+
+						<!-- BUTTONS -->
+						<ul class="pull-right nav nav-pills nav-second-main">
+
+							<!-- SEARCH -->
+							<li class="search">
+								<a href="javascript:;">
+									<i class="fa fa-search"></i>
+								</a>
+								<div class="search-box">
+									<form action="page-search-result-1.html" method="get">
+										<div class="input-group">
+											<input type="text" name="src" placeholder="Search" class="form-control" />
+											<span class="input-group-btn">
+												<button class="btn btn-primary" type="submit">Search</button>
+											</span>
+										</div>
+									</form>
+								</div> 
+							</li>
+							<!-- /SEARCH -->
+
+							<!-- QUICK SHOP CART -->
+<!-- #include file="./shopcart.inc" -->							
+							<!-- /QUICK SHOP CART -->
+
+						</ul>
+						<!-- /BUTTONS -->
+
+
+						<!-- Logo -->
+						<a class="logo pull-left" href="#">
+							<img src="assets/images/logo_dark.png" alt="" />
+						</a>
+<!-- Menu -->
+						<!-- 
+							Top Nav 
+							
+							AVAILABLE CLASSES:
+							submenu-dark = dark sub menu
+						-->
+						
+						<div class="navbar-collapse pull-right nav-main-collapse collapse submenu-dark">
+							<nav class="nav-main">
+
+								<!--
+									NOTE
+									
+									For a regular link, remove "dropdown" class from LI tag and "dropdown-toggle" class from the href.
+									Direct Link Example: 
+
+									<li>
+										<a href="#">HOME</a>
+									</li>
+								-->
+								<ul id="topMain" class="nav nav-pills nav-main">
+									<li class=" "><!-- HOME -->
+										<a class="" href="/index.shtml">
+											В начало
+										</a>
+									</li>
+									<li><!-- PAGES -->
+										<a  href="/page-contact-3.shtml">
+											Контакты
+										</a>
+									</li>
+									<li ><!-- FEATURES -->
+										<a href="#">
+											О Компании
+										</a>
+									</li>
+									<li>
+										<a id="sidepanel_btn" href="#" class="fa fa-bars"></a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+<!-- /Menu -->
+					</div>
+				</header>
+				<!-- /Top Nav -->
+
+			</div>
+
+
+
+			<!-- REVOLUTION SLIDER -->
+			<div class="slider fullwidthbanner-container roundedcorners">
+				<!--
+					Navigation Styles:
+					
+						data-navigationStyle="" theme default navigation
+						
+						data-navigationStyle="preview1"
+						data-navigationStyle="preview2"
+						data-navigationStyle="preview3"
+						data-navigationStyle="preview4"
+						
+					Bottom Shadows
+						data-shadow="1"
+						data-shadow="2"
+						data-shadow="3"
+						
+					Slider Height (do not use on fullscreen mode)
+						data-height="300"
+						data-height="350"
+						data-height="400"
+						data-height="450"
+						data-height="500"
+						data-height="550"
+						data-height="600"
+						data-height="650"
+						data-height="700"
+						data-height="750"
+						data-height="800"
+				-->
+				<div class="fullwidthbanner" data-height="600" data-shadow="0" data-navigationStyle="preview2">
+					<ul class="hide">
+
+						<!-- SLIDE 1 -->
+						<li data-transition="fade" data-slotamount="1" data-masterspeed="1500" data-delay="10000" data-saveperformance="off" data-title="Slide 1" style="background-color: #F6F6F6;">
+
+							<img src="assets/images/backgrounds/grey-noise-min.jpg" alt="video" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat">
+
+							<div class="tp-caption customin ltl tp-resizeme revo-slider-caps-text uppercase"
+								data-x="-300" data-hoffset="0"
+								data-y="-250"
+								data-customin="x:0;y:0;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+								
+								data-speed="400"
+								data-start="1000"
+								data-easing="easeOutQuad"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.01"
+								data-endelementdelay="0.1"
+								data-endspeed="1000"
+								data-endeasing="Power4.easeIn">
+								<img src="assets/images/desktop_slider_1.jpg" alt="network cables">
+							</div>
+
+							<div class="tp-caption large_bold_white skewfromrightshort customout font-open-sans"
+								data-x="645"
+								data-y="70"
+								data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+								data-speed="500"
+								data-start="800"
+								data-easing="Back.easeOut"
+								data-endspeed="500"
+								data-endeasing="Power4.easeIn"
+								data-captionhidden="off"
+								style="z-index: 4; font-weight:bold;">Слаботочные
+							</div>
+
+							<div class="tp-caption large_bold_white skewfromleftshort customout font-open-sans"
+								data-x="645"
+								data-y="133"
+								data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+								data-speed="300"
+								data-start="1100"
+								data-easing="Back.easeOut"
+								data-endspeed="500"
+								data-endeasing="Power4.easeIn"
+								data-captionhidden="off"
+								style="z-index: 7; font-weight:bold !important;">системы
+							</div>
+
+							<div class="tp-caption ltl customin customout small_light_white font-lato"
+								data-x="650"
+								data-y="235"
+								data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1.3;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+								data-speed="500"
+								data-start="1300"
+								data-easing="easeOutQuad"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.01"
+								data-endelementdelay="0.1"
+								data-endspeed="500"
+								data-endeasing="Power4.easeIn" style=" color: #fff; font-size:20px; max-width: 550px; white-space: normal; text-shadow:none;">
+								Структурированные кабельные системы, основа Вашей сети.
+								Мы проложили более 5000 км кабеля!<br />
+								<strong>25 - летняя гарантия!</strong>
+							</div>
+
+							
+							<div class="tp-caption large_bold_darkblue skewfromleftshort customout"
+								data-x="650" data-hoffset="-90"
+								data-y="370"
+								data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+								data-speed="500"
+								data-start="1600"
+								data-easing="Back.easeOut"
+								data-endspeed="500"
+								data-endeasing="Power4.easeIn"
+								data-captionhidden="off"
+								style="z-index: 10; text-shadow:none;">5500+
+							</div>
+
+							<div class="tp-caption medium_bg_darkblue skewfromleftshort customout"
+								data-x="650" data-hoffset="-90"
+								data-y="430"
+								data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+								data-speed="500"
+								data-start="1650"
+								data-easing="Back.easeOut"
+								data-endspeed="500"
+								data-endeasing="Power4.easeIn"
+								data-captionhidden="off"
+								style="z-index: 11; text-shadow:none;">Км. кабеля
+							</div>
+
+							<div class="tp-caption medium_bold_red skewfromleftshort customout start font300"
+								data-x="850" data-hoffset="-90"
+								data-y="390"
+								data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+								data-speed="500"
+								data-start="1850"
+								data-easing="Back.easeOut"
+								data-endspeed="500"
+								data-endeasing="Power4.easeIn"
+								data-captionhidden="off"
+								style="z-index: 13; text-shadow:none; font-weight:300;">Стандарт <strong>11801+</strong>
+							</div>
+
+							<div class="tp-caption medium_bg_red skewfromleftshort customout"
+								data-x="850" data-hoffset="-90"
+								data-y="430"
+								data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+								data-speed="500"
+								data-start="2300"
+								data-easing="Back.easeOut"
+								data-endspeed="500"
+								data-endeasing="Power4.easeIn"
+								data-captionhidden="off"
+								style="z-index: 21; text-shadow:none;">Администрирование
+							</div>
+
+						</li>
+
+						<!-- SLIDE 2 -->
+						<li data-transition="random" data-slotamount="1" data-masterspeed="1000" data-saveperformance="off" data-title="Slide 2">
+
+							<img src="assets/images/1x1.png" data-lazyload="assets/images/desktop_slider_2.jpg" alt="" data-bgfit="cover" data-bgposition="center bottom" data-bgrepeat="no-repeat" />
+
+							<div class="overlay dark-1"><!-- dark overlay [1 to 9 opacity] --></div>
+
+							<div class="tp-caption customin ltl tp-resizeme text_white"
+								data-x="center"
+								data-y="155"
+								data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+								data-speed="800"
+								data-start="1000"
+								data-easing="easeOutQuad"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.01"
+								data-endelementdelay="0.1"
+								data-endspeed="1000"
+								data-endeasing="Power4.easeIn" style="z-index: 10;">
+								<span class="weight-300">Проектирование / Монтаж / Обслуживание </span>
+							</div>
+
+							<div class="tp-caption customin ltl tp-resizeme large_bold_white"
+								data-x="center"
+								data-y="205"
+								data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+								data-speed="800"
+								data-start="1200"
+								data-easing="easeOutQuad"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.01"
+								data-endelementdelay="0.1"
+								data-endspeed="1000"
+								data-endeasing="Power4.easeIn" style="z-index: 10;">
+								Системы видеонаблюдения
+							</div>
+
+							<div class="tp-caption customin ltl tp-resizeme small_light_white font-lato"
+								data-x="center"
+								data-y="295"
+								data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+								data-speed="800"
+								data-start="1400"
+								data-easing="easeOutQuad"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.01"
+								data-endelementdelay="0.1"
+								data-endspeed="1000"
+								data-endeasing="Power4.easeIn" style="z-index: 10; width: 100%; max-width: 750px; white-space: normal; text-align:center; font-size:20px;">
+								Интеллектуальные, управляемые и автономные системы видеонаблюдения.
+							</div>
+
+							<!--<div class="tp-caption customin ltl tp-resizeme"
+								data-x="center"
+								data-y="383"
+								data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+								data-speed="800"
+								data-start="1550"
+								data-easing="easeOutQuad"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.01"
+								data-endelementdelay="0.1"
+								data-endspeed="1000"
+								data-endeasing="Power4.easeIn" style="z-index: 10;">
+								<a href="#purchase" class="btn btn-default btn-lg">
+									<span>Purchase Smarty Now</span> 
+								</a>
+							</div>-->
+
+						</li>
+
+						<!-- SLIDE 3 -->
+						<li data-transition="fade" data-slotamount="7" data-masterspeed="300"  data-saveperformance="off" data-title="Slide 3">
+							<img src="assets/images/1x1.png" data-lazyload="assets/images/backgrounds/background_slide_3.jpg" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat" />
+
+							<div class="tp-caption lfr" 
+								data-x="left" data-hoffset="50"
+								data-y="85" 
+								data-speed="1500" 
+								data-start="500" 
+								data-easing="easeOutExpo" 
+								data-elementdelay="0.1" 
+								data-endelementdelay="0.1" 
+								data-endspeed="300" 
+								style="z-index: 2;">
+								<img src="assets/images/1x1.png" data-lazyload="assets/images/2_680x426.png" alt="" />
+							</div>
+
+							<div class="tp-caption block_black sft" 
+								data-x="right" data-hoffset="-70"
+								data-y="137" 
+								data-speed="750" 
+								data-start="1100" 
+								data-easing="easeOutExpo" 
+								data-splitin="none" 
+								data-splitout="none" 
+								data-elementdelay="0.1" 
+								data-endelementdelay="0.1" 
+								data-endspeed="300" 
+								style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">Техническая поддержка серверов
+							</div>
+
+							<div class="tp-caption block_black sfb" 
+								data-x="right" data-hoffset="-70" 
+								data-y="176" 
+								data-speed="750" 
+								data-start="1400" 
+								data-easing="easeOutExpo" 
+								data-splitin="none" 
+								data-splitout="none" 
+								data-elementdelay="0.1" 
+								data-endelementdelay="0.1" 
+								data-endspeed="300" 
+								style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;">IBM HP Supermicro...
+							</div>
+
+							<div class="tp-caption block_theme_color sft" 
+								data-x="right"  data-hoffset="-70"
+								data-y="239" 
+								data-speed="750" 
+								data-start="1700" 
+								data-easing="easeOutExpo" 
+								data-splitin="none" 
+								data-splitout="none" 
+								data-elementdelay="0.1" 
+								data-endelementdelay="0.1" 
+								data-endspeed="300" 
+								style="z-index: 5; max-width: auto; max-height: auto; white-space: nowrap;">Поддержка программного обеспечения
+							</div>
+
+							<div class="tp-caption block_theme_color sfb" 
+								data-x="right"  data-hoffset="-70"
+								data-y="278" 
+								data-speed="750" 
+								data-start="2000" 
+								data-easing="easeOutExpo" 
+								data-splitin="none" 
+								data-splitout="none" 
+								data-elementdelay="0.1" 
+								data-endelementdelay="0.1" 
+								data-endspeed="300" 
+								style="z-index: 6; max-width: auto; max-height: auto; white-space: nowrap;">Linux, Windows, Oracle
+							</div>
+
+							<div class="tp-caption block_black sft" 
+								data-x="right"  data-hoffset="-70"
+								data-y="340" 
+								data-speed="750" 
+								data-start="2300" 
+								data-easing="easeOutExpo" 
+								data-splitin="none" 
+								data-splitout="none" 
+								data-elementdelay="0.1" 
+								data-endelementdelay="0.1" 
+								data-endspeed="300" 
+								style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;">7 дней в неделю 24 часа
+							</div>
+						</li>
+
+						<!-- SLIDE 4 -->
+						<li data-transition="fade" data-slotamount="7" data-masterspeed="300" data-link="http://lvs/" data-title="Slide 4" data-target="_blank" data-saveperformance="off">
+
+							<img src="assets/images/1x1.png" data-lazyload="assets/images/backgrounds/dead_hdd.jpg" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat" />
+
+							<div class="tp-caption lfb" 
+								data-x="-120"  
+								data-y="0" 
+								data-speed="2000" 
+								data-start="2500" 
+								data-easing="easeOutExpo" 
+								data-elementdelay="0.1" 
+								data-endelementdelay="0.1" 
+								data-endspeed="300" 
+								style="z-index: 2;">
+								<img src="assets/images/1x1.png" alt="" data-lazyload="assets/images/backup.jpg">
+							</div>
+
+							<div class="tp-caption mediumlarge_light_white lfb tp-resizeme" 
+								data-x="left" data-hoffset="150"
+								data-y="183" 
+								data-speed="1000" 
+								data-start="1400" 
+								data-easing="easeOutExpo" 
+								data-splitin="none" 
+								data-splitout="none" 
+								data-elementdelay="0.1" 
+								data-endelementdelay="0.1" 
+								data-endspeed="300" 
+								style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">Вирус зашифровал все данные
+							</div>
+
+							<div class="tp-caption mediumlarge_light_white lft tp-resizeme" 
+								data-x="left" data-hoffset="70"
+								data-y="135" 
+								data-speed="1000" 
+								data-start="1200" 
+								data-easing="easeOutExpo" 
+								data-splitin="none" 
+								data-splitout="none" 
+								data-elementdelay="0.1" 
+								data-endelementdelay="0.1" 
+								data-endspeed="300" 
+								style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;">"Рассыпался" жёсткий диск,
+							</div>
+
+							<div class="tp-caption block_white sfl tp-resizeme" 
+								data-x="70" 
+								data-y="266" 
+								data-speed="750" 
+								data-start="2500" 
+								data-easing="easeOutExpo" 
+								data-splitin="none" 
+								data-splitout="none" 
+								data-elementdelay="0.1" 
+								data-endelementdelay="0.1" 
+								data-endspeed="300" 
+								style="z-index: 5; max-width: auto; max-height: auto; white-space: nowrap;">100% надёжное решение - резервная копия
+							</div>
+
+							<div class="tp-caption block_theme_color sfr tp-resizeme" 
+								data-x="120" 
+								data-y="310" 
+								data-speed="750" 
+								data-start="2700" 
+								data-easing="easeOutExpo" 
+								data-splitin="none" 
+								data-splitout="none" 
+								data-elementdelay="0.1" 
+								data-endelementdelay="0.1" 
+								data-endspeed="300" 
+								style="z-index: 6; max-width: auto; max-height: auto; white-space: nowrap;">Легко пользоваться - трудно делать каждый день
+							</div>
+
+							<div class="tp-caption block_white sfb tp-resizeme" 
+								data-x="170" 
+								data-y="356" 
+								data-speed="750" 
+								data-start="2900" 
+								data-easing="easeOutExpo" 
+								data-splitin="none" 
+								data-splitout="none" 
+								data-elementdelay="0.1" 
+								data-endelementdelay="0.1" 
+								data-endspeed="300" 
+								style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;">Выход есть - резервное копирование как услуга.
+							</div>
+						</li>
+
+						<!-- SLIDE  5 -->
+						<li data-transition="random" data-slotamount="1" data-masterspeed="1000" data-saveperformance="off" data-title="Slide 5">
+
+							<img src="assets/images/1x1.png" data-lazyload="assets/images/backgrounds/access-control.jpg" alt="" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="110" />
+
+<!-- very_large_text-->
+							<div class="tp-caption mediumlarge_light_white lfb ltt tp-resizeme" 
+								data-x="left" data-hoffset="0"
+								data-y="center" data-voffset="-50"
+								data-speed="600"
+								data-start="800"
+								data-easing="Power4.easeOut"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.01"
+								data-endelementdelay="0.1"
+								data-endspeed="500"
+								data-endeasing="Power4.easeIn">
+								Системы охраны и контроля доступа
+							</div>
+
+							<div class="tp-caption medium_light_white lfb ltt tp-resizeme"
+								data-x="left" data-hoffset="10"
+								data-y="center" data-voffset="60"
+								data-speed="600"
+								data-start="900"
+								data-easing="Power4.easeOut"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.01"
+								data-endelementdelay="0.1"
+								data-endspeed="500"
+								data-endeasing="Power4.easeIn">
+								Высокие технологии<br/>								
+								<span style="font-size:24px;font-weight:400;">&ndash; для Вашей безопасности.</span>
+							</div>
+						</li>
+					</ul>
+
+					<div class="tp-bannertimer"><!-- progress bar --></div>
+				</div>
+			</div>
+			<!-- /REVOLUTION SLIDER -->
+
+
+			<!-- INFO BAR -->
+			<section class="info-bar info-bar-clean">
+				<div class="container">
+
+					<div class="row">
+
+						<div class="col-sm-4">
+							<i class="glyphicon glyphicon-globe"></i>
+							<h3>Монтаж</h3>
+							<p class="padding-left-43">Оборудования датацентров, систем видеонаблюдения, охранно-пожарной сигнализации, систем контроля доступа</p>
+						</div>
+
+						<div class="col-sm-4">
+							<i class="glyphicon glyphicon-wrench"></i>
+							<h3>Настройка</h3>
+							<p>Первоначальная настройка включена в цену</p>
+						</div>
+
+						<div class="col-sm-4">
+							<i class="glyphicon glyphicon-user"></i>
+							<h3>Поддержка 24/7</h3>
+							<p>Бесплатные консультации по подключению</p>
+						</div>
+
+					</div>
+
+				</div>
+			</section>
+			<!-- /INFO BAR -->
+
+
+
+			<!-- WELCOME -->
+			<section class="nopadding-bottom">
+				<div class="container">
+					<header class="text-center margin-bottom-40">
+						<h1 class="weight-300">Добро пожаловать в Слаботочные системы</h1>
+						<h3 class="weight-300 letter-spacing-1 size-15"><span>Динамично развивающаяся компания.</span></h3>
+					</header>
+
+					<div class="text-center">
+						<p class="lead">
+							Основная цель компании – помочь эффективно автоматизировать бизнес-процессы и наладить корректную IT-структуру в офисе клиента. Нам важно, чтобы ваше оборудование исправно работало с максимальной отдачей.
+						</p>
+						<div class="margin-top-40">
+							<img class="img-responsive" src="assets/images/technology.jpg" alt="welcome" />
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- /WELCOME -->
+
+
+
+
+			<!-- -->
+			<section class="alternate">
+				<div class="container">
+				
+					<div class="row">
+
+						<div class="col-md-4">
+							<div class="box-icon box-icon-side box-icon-color box-icon-round">
+								<i class="fa fa-cogs"></i>
+								<a class="box-icon-title" href="#">
+									<h2>Монтаж</h2>
+								</a>
+								<p>Структурированных кабельных систем, охранно-пожарной сигнализации, видеонаблюдения.</p>
+								<a class="box-icon-more font-lato weight-300" href="#">Узнать больше...</a>
+							</div>
+
+						</div>
+
+						<div class="col-md-4">
+
+							<div class="box-icon box-icon-side box-icon-color box-icon-round">
+								<i class="fa fa-wrench"></i>
+								<a class="box-icon-title" href="#">
+									<h2>Техническое обслуживание</h2>
+								</a>
+								<p>Регламентные работы, ремонт и восстановление компьютеров, офисного оборудования, копировальных аппаратов, сетевого  оборудования, кабельных систем.</p>
+								<a class="box-icon-more font-lato weight-300" href="#">Узнать больше...</a>
+							</div>
+
+						</div>
+
+						<div class="col-md-4">
+							<div class="box-icon box-icon-side box-icon-color box-icon-round">
+								<i class="fa fa-tablet"></i>
+								<a class="box-icon-title" href="#">
+									<h2>Системное администрироание</h2>
+								</a>
+								<p>Грамотное и профессиональное администрирование информационной системы обеспечит стабильное функционирование всго офиса, и ибесперебойную работу компании в целом.</p>
+								<a class="box-icon-more font-lato weight-300" href="#">Узнать больше...</a>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+			</section>
+		
+			<section>
+				<div class="container">
+					<header class="text-center margin-bottom-40">
+						<h2 class="weight-300">Реальная поддержка. Для реальных людей.</h2>
+						<h3 class="weight-300 letter-spacing-1 size-13"><span>Совершенная система технической поддержки</span></h3>
+					</header>
+
+					<div class="row">
+
+						<div class="col-sm-6">
+						<p>Содержание в штате опытного квалифицированного специалиста практически всегда подразумевает значительные затраты для компании. Поэтому аутсорсинг услуг IT-специалиста может стать наиболее выгодным решением.</p>
+						<ul>
+						<li>Консультируем наших клиентов по всем вопросам, связанным с компьютерами, интернетом, электронной почтой</li>
+						<li>Мы берем на себя все заботы об установке, настройке и сервисном обслуживании офисной техники предприятия</li>
+						</ul>
+			
+							<a class="btn btn-default" href="#">Узнать больше...</a>
+						</div>
+
+						<div class="col-sm-6">
+							<img class="img-responsive" src="assets/images/online-tech-support.jpg" alt="support" />
+						</div>
+
+					</div>
+				</div>
+			</section>
+			<!-- / -->
+
+
+
+
+			<!-- COLOR BOXES -->
+			<section class="nopadding noborder">
+				<!--
+					.box-pink
+					.box-blue
+					.box-orange
+					.box-yellow
+					.box-purple
+					.box-red
+					.box-brown
+					.box-green
+					.box-black
+					.box-gray
+					.box-teal
+
+
+				 
+				CREATE YOUR OWN COLORS - CSS EXAMPLE:
+					.box-pink>div:nth-child(1) {
+						background-color:#e2476b;
+					}
+					.box-pink>div:nth-child(2) {
+						background-color:#e9738f;
+					}
+					.box-pink>div:nth-child(3) {
+						background-color:#f09fb2;
+					}
+					.box-pink>div:nth-child(4) {
+						background-color:#f7cbd5;
+					}
+
+				-->
+				<div class="row box-gradient box-gray">
+					<div class="col-xs-6 col-sm-3">
+						<i class="fa fa-server fa-4x"></i>
+						<h2 class="countTo font-raleway" data-speed="3000">332</h2>
+						<p>Сервера</p>
+					</div>
+
+					<div class="col-xs-6 col-sm-3">
+						<i class="fa et-desktop fa-4x"></i>
+						<h2 class="countTo font-raleway" data-speed="3000">2216</h2>
+						<p>Рабочих станций</p>
+					</div>
+
+					<div class="col-xs-6 col-sm-3">
+						<i class="fa et-printer fa-4x"></i>
+						<h2 class="countTo font-raleway" data-speed="3000">2094</h2>
+						<p>Принтера</p>
+					</div>
+
+					<div class="col-xs-6 col-sm-3">
+						<i class="fa et-toolbox fa-4x"></i>
+						<h2 class="countTo font-raleway" data-speed="3000">159</h2>
+						<p>Копировальных аппаратов</p>
+					</div>
+				</div>
+			</section>
+			<!-- /COLOR BOXES -->
+
+
+
+
+			<!-- Features -->
+			<section>
+				<div class="container">
+
+					<header class="text-center margin-bottom-40">
+						<h2 id="complexSupport" class="weight-300">Комплексная поддержка IT инфраструктуры.</h2>
+						<h3 class="weight-300 letter-spacing-1 size-13"><span>Мы заботимся о Вашем "железе".</span></h3>
+					</header>
+					
+					<div class="row margin-top-80">
+
+						<div class="col-lg-4 col-md-4 col-md-push-4 text-center">
+						
+							<img class="img-responsive" src="assets/images/1.png" alt="" />
+
+						</div>
+
+						<div class="col-lg-4 col-md-4 col-sm-6 col-md-pull-4">
+
+							<div class="box-icon box-icon-right">
+								<a class="box-icon-title" href="#complexSupport">
+									<i class="fa fa-eye"></i>
+									<h3>Профилактика</h3>
+								</a>
+								<p>Регламентная поддержка оборудования позволяет снизить до минимума время аварийного простоя системы, благодаря регулярным визитам квалифицированных специалистов для предупреждения поломок. Мы отремонтируем Ваши устройства до того как они сломаются.</p>
+							</div>
+
+							<div class="box-icon box-icon-right">
+								<a class="box-icon-title" href="#complexSupport">
+									<i class="fa fa-check"></i>
+									<h2>Инцидентный ремонт</h2>
+								</a>
+								<p>Разовое выполнение технологических или консультационных услуг необходимых для восстановления работоспособности при возникновении аварийной ситуации.</p>
+								<!-- <p>Комплексный ремонт любой сложности планово-предупредительному обслуживанию (профилактики) оргтехники, с целью обеспечения ее бесперебойного функционирования.</p> -->
+							</div>
+
+							<div class="box-icon box-icon-right">
+								<a class="box-icon-title" href="#complexSupport">
+									<i class="fa fa-rocket"></i>
+									<h3>Быстрая поставка</h3>
+								</a>
+								<p>Большой склад запасных частей и расходных материалов для оборудования разных производителей. Контрактные поставки редких и специально изготовленных под определённого заказчика электронных плат и компонентов.</p>
+							</div>
+
+							<div class="box-icon box-icon-right">
+								<a class="box-icon-title" href="#complexSupport">
+									<i class="fa fa-credit-card"></i>
+									<h3>Прозрачное финансирование</h3>
+								</a>
+								<p>Простые и понятные тарифы помогут Вам избежать излишних расходов на бесперебойное функционирование офиса. Выделенные специально для Вашего офиса менеджеры и инженеры решат проблемы эксплуатации оборудования, что позволит Вам высвободить человеческие и финансовые ресурсы. </p>
+							</div>
+
+						</div>
+
+						<div class="col-lg-4 col-md-4 col-sm-6">
+
+							<div class="box-icon box-icon-left">
+								<a class="box-icon-title" href="#complexSupport">
+									<i class="fa fa-tablet"></i>
+									<h3>Программы и приложения</h3>
+								</a>
+								<p>Эффективность Вашего бизнеса зависит от правильной работы множества компьютерных программ. Мы знаем как это множество превратить в связанную, отлаженную, надёжную систему.</p>
+							</div>
+
+							<div class="box-icon box-icon-left">
+								<a class="box-icon-title" href="#complexSupport">
+									<i class="fa fa-random"></i>
+									<h3>Резервное копирование</h3>
+								</a>
+								<p>Восстановить из копии случайно утраченные данные в разы быстрее и дешевле, чем лечить разрушенную аппаратным сбоем, вирусом или злоумышленником базу данных.</p>
+							</div>
+
+							<div class="box-icon box-icon-left">
+								<a class="box-icon-title" href="#complexSupport">
+									<i class="fa fa-tint"></i>
+									<h3>Восстановление потерянных данных</h3>
+								</a>
+								<p>Если у Вас "сгорел" жесткий диск, мигнул свет, Вы случайно удалили файл и нет копии. Ещё не всё потеряно, часто данные можно восстановить.</p>
+							</div>
+
+							<div class="box-icon box-icon-left">
+								<a class="box-icon-title" href="#complexSupport">
+									<i class="fa fa-cloud"></i>
+									<h3>Облачные технологии</h3>
+								</a>
+								<p>Внедрение и поддержка облачных сервисов в повседневную жизнь компании.</p>
+							</div>
+
+						</div>
+						
+					</div>
+
+
+				</div>
+			</section>
+			
+
+
+			
+
+
+			<!-- 
+				controlls-over		= navigation buttons over the image 
+				buttons-autohide 	= navigation buttons visible on mouse hover only
+				
+				data-plugin-options:
+					"singleItem": true
+					"autoPlay": true (or ms. eg: 4000)
+					"navigation": true
+					"pagination": true
+			-->
+			<div class="text-center margin-top-30 margin-bottom-30">
+				<div class="owl-carousel nomargin" data-plugin-options='{"items":6, "singleItem": false, "autoPlay": true}'>
+					<div class="margin-right-8">
+						<img class="img-responsive" src="assets/images/brands/1.png" alt="">
+					</div>
+					<div class="margin-right-8">
+						<img class="img-responsive " src="assets/images/brands/2.png" alt="">
+					</div>
+					<div class="margin-right-8">
+						<img class="img-responsive" src="assets/images/brands/3.png" alt="">
+					</div>
+					<div class="margin-right-8">
+						<img class="img-responsive" src="assets/images/brands/4.png" alt="">
+					</div>
+					<div class="margin-right-8">
+						<img class="img-responsive" src="assets/images/brands/5.png" alt="">
+					</div>
+					<div class="margin-right-8">
+						<img class="img-responsive" src="assets/images/brands/6.png" alt="">
+					</div>
+					<div class="margin-right-8">
+						<img class="img-responsive" src="assets/images/brands/7.png" alt="">
+					</div>
+					<div class="margin-right-8">
+						<img class="img-responsive" src="assets/images/brands/8.png" alt="">
+					</div>
+					<div class="margin-right-8" style="background:#164c95">
+						<img class="img-responsive" src="assets/images/brands/9.png" alt="">
+					</div>
+					<div class="margin-right-8" style="background:#164c95">
+						<img class="img-responsive" src="assets/images/brands/10.png" alt="">
+					</div>
+				</div>
+			</div>
+
+
+			<!-- FOOTER -->
+			<!--#include file="./footer.inc" -->
+			<!-- /FOOTER -->
+
+		</div>
+		<!-- /wrapper -->
+
+		<!-- #include file="./slidepanel.inc" -->
+		
+
+		<!-- SCROLL TO TOP -->
+		<a href="#" id="toTop"></a>
+
+
+		<!-- PRELOADER -->
+		<div id="preloader">
+			<div class="inner">
+				<span class="loader"></span>
+			</div>
+		</div><!-- /PRELOADER -->
+
+
+		<!-- JAVASCRIPT FILES -->
+		<script type="text/javascript">var plugin_path = 'assets/plugins/';</script>
+		<script type="text/javascript" src="assets/plugins/jquery/jquery-2.2.3.min.js"></script>
+
+		<script type="text/javascript" src="assets/js/scripts.js"></script>
+		
+		<!-- STYLESWITCHER - REMOVE -->
+		<script async type="text/javascript" src="assets/plugins/styleswitcher/styleswitcher.js"></script>
+
+		<!-- REVOLUTION SLIDER -->
+		<script type="text/javascript" src="assets/plugins/slider.revolution/js/jquery.themepunch.tools.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/slider.revolution/js/jquery.themepunch.revolution.min.js"></script>
+		<script type="text/javascript" src="assets/js/view/demo.revolution_slider.js"></script>
+
+	</body>
+</html>
